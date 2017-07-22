@@ -72,7 +72,7 @@ Pedestal wraps *all* exceptions in ex-info. The folowing keys are defined:
 
 |===
 
-The context map _not_ contain the error. The `:error` function can do
+The context map does _not_ contain the error. The `:error` function can do
 one of the following things:
 
 1. Return the context map. This is "catching" the error. Because the
